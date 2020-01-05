@@ -1,0 +1,31 @@
+@import 'vars';
+@import 'mixin';
+
+@include main;
+
+h3 {
+    color: grey;
+    border: 0;
+    padding: 5px;
+    margin: 1px;
+}
+h1 {
+    color: $text_color;
+    border: 0;
+    padding: 5px;
+    margin: 1px;
+}
+
+.blackbox {
+    background-color: black;
+    text-align: right;
+    margin: 5px;
+    padding: 5px;
+}
+
+p {
+    display: inline-block;
+    color: white;
+    margin-right: 15px;;
+    
+  }
