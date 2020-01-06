@@ -3,6 +3,7 @@
 
 @include main;
 
+
 h3 {
     color: grey;
     border: 0;
@@ -18,8 +19,9 @@ h1 {
 
 .blackbox {
     background-color: black;
+    border: 1px;
     text-align: right;
-    margin: 5px;
+    margin: 0pxx;
     padding: 5px;
 }
 
@@ -28,4 +30,52 @@ p {
     color: white;
     margin-right: 15px;;
     
+  }
+
+  .blackright {
+      color:black;
+      text-align: right;
+      margin: 1px;
+      padding: 5px;
+  }
+
+  .blackcenter {
+    color:black;
+    text-align: justify;
+    margin: 1px;
+    padding: 5px;
+  }
+
+  .border {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+  }
+
+  .center{
+      color: black;
+      text-align: center;
+  }
+
+  .column {
+    float: left;
+    padding: 10px;
+
+  }
+  
+  .left {
+    width: 15%;
+
+  }
+  
+  .right {
+    width: 85%;
+    text-align: right;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
   }
